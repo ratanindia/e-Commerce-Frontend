@@ -39,7 +39,7 @@ const SignIn = () => {
                         </div>
 
                         <form className="mt-3">
-                            <h2>Sign In</h2>
+                            <h2 className="mb-4">Sign In</h2>
 
                             <div className="form-group">
                                 <TextField id="standard-basic" type="email" label="Email"
@@ -51,17 +51,17 @@ const SignIn = () => {
                             </div>
 
 
-                            <a className="border-effect cursor">Forget Password?</a>
+                            <a className="border-effect cursor txt">Forget Password?</a>
 
 
                             <Button className="btn-blue btn-lg btn-big w-100 mt-3 mb-3">Sign In</Button>
 
-                            <p>Not Registered? <Link to='/signUp' className="border-effect">Sign Up</Link></p>
+                            <p className="txt">Not Registered? <Link to='/signUp' className="border-effect">Sign Up</Link></p>
 
 
                             <h6 className="text-center mt-3 font-weight-bold">Or continue with social account  </h6>
 
-                            <ul className="list list-inline mt-3 mb-1 socials text-center">
+                            <ul className="list list-inline mt-3 mb-1 socials text-center cursor">
                                 <li className="list-inline-item">
                                     <Link to='#'><FcGoogle /></Link>
                                 </li>
