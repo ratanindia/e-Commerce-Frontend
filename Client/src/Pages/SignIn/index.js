@@ -5,7 +5,8 @@ import TextField from '@mui/material/TextField';
 import { Button } from "@mui/material";
 import { MdFacebook } from "react-icons/md";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { RiTwitterXFill } from "react-icons/ri";
+import { FcGoogle } from "react-icons/fc";
+
 
 
 
@@ -62,13 +63,13 @@ const SignIn = () => {
 
                             <ul className="list list-inline mt-3 mb-1 socials text-center">
                                 <li className="list-inline-item">
-                                    <Link to='#'><MdFacebook /></Link>
+                                    <Link to='#'><FcGoogle /></Link>
                                 </li>
                                 <li className="list-inline-item">
                                     <Link to='#'><AiOutlineInstagram /></Link>
                                 </li>
                                 <li className="list-inline-item">
-                                    <Link to='#'><RiTwitterXFill /></Link>
+                                    <Link to='#'><MdFacebook /></Link>
                                 </li>
                             </ul>
 
