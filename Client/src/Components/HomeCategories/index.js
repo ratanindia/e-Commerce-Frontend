@@ -45,7 +45,7 @@ const HomeCategories = () =>{
                                     {itemBg?. map((item, index)=>{
                                         return(
                                             <SwiperSlide>
-                                       <div className='item text-center cursor' style={{background:item}}>
+                                       <div key={index} className='item text-center cursor' style={{background:item}}>
                                         <img src='https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-11.png'/>
                                        <h6>Peach</h6>
                                        </div>
