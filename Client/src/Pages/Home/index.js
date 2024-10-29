@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import ProductItem from "../../Components/ProductItem";
+import ProductItems from "../../Components/ProductItems";
 import HomeCategories from "../../Components/HomeCategories";
 import { IoMailOutline } from "react-icons/io5";
 
@@ -80,22 +80,22 @@ const Home = () => {
 
                                 
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     
                                     </Swiper>
@@ -119,14 +119,14 @@ const Home = () => {
                             </div>
 
                             <div className="product_row productRow2 w-100 mt-4 d-flex">
-                                <ProductItem/>
-                                <ProductItem/>
-                                <ProductItem/>
-                                <ProductItem/>
-                                <ProductItem/>
-                                <ProductItem/>
-                                <ProductItem/>
-                                <ProductItem/>
+                                <ProductItems/>
+                                <ProductItems/>
+                                <ProductItems/>
+                                <ProductItems/>
+                                <ProductItems/>
+                                <ProductItems/>
+                                <ProductItems/>
+                                <ProductItems/>
                                 
                                  </div>
 

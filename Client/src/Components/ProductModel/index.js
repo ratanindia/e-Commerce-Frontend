@@ -15,7 +15,7 @@ import { IoCartSharp } from 'react-icons/io5';
 
 
 
-const ProductModel = (props) => {
+const ProductModel = () => {
 
    
     const context = useContext(myContext);
@@ -81,4 +81,4 @@ const ProductModel = (props) => {
     )
 }
 
-export { ProductModel }
+export default  ProductModel ;

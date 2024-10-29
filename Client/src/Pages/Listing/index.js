@@ -1,4 +1,4 @@
-import { Sidebar } from "../../Components/Sidebar"
+
 import { Button } from "@mui/material";
 import { IoIosMenu } from "react-icons/io";
 import { CgMenuGridR } from "react-icons/cg";
@@ -8,8 +8,10 @@ import { FaAngleDown } from "react-icons/fa6";
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { useState } from "react";
-import {ProductItem} from "../../Components/ProductItem"
 import Pagination from '@mui/material/Pagination';
+import ProductItems from '../../Components/ProductItems';
+import SideBar from "../../Components/SideBar";
+
 
 
 
@@ -35,7 +37,7 @@ const Listing = ()=>{
         <section className="product_Listing_Page">
             <div className="container">
             <div className="productListing d-flex">
-            <Sidebar/>
+            <SideBar/>
             <div className="content_right">
                 <img 
                 src="https://res.cloudinary.com/da26rdzwp/image/upload/v1726541933/1726541933044_siril-georgette-brown-color-saree-with-blouse-piece-product-images-rvegeptjtj-0-202308161431.webp" 
@@ -74,29 +76,48 @@ const Listing = ()=>{
 
 
                     <div className="productListing">
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
-                        <ProductItem itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                        <ProductItems itemView={productView}/>
+                       
                     </div>
 
                     <div className="d-flex align-items-center justify-content-center mt-5">
@@ -113,4 +134,4 @@ const Listing = ()=>{
 }
 
 
-export {Listing}
+export default Listing;

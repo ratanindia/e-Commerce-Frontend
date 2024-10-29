@@ -4,8 +4,8 @@ import { Swiper } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import s1 from '../../images/s1.jpeg'
-import s2 from '../../images/s2.png'
+import s1 from '../../images/s1.jpg'
+import s2 from '../../images/s2.jpg'
 import s3 from '../../images/s3.png'
 import s4 from '../../images/s4.png'
 import s5 from '../../images/s5.png'

@@ -1,15 +1,15 @@
 
-import { Rating } from '@mui/material/Rating';
-import { Button } from "@mui/material";
+import { Button, Rating } from "@mui/material";
 import { SlSizeFullscreen } from "react-icons/sl";
 import { IoIosHeartEmpty } from "react-icons/io";
-import { useContext } from 'react';
 import { myContext } from '../../App';
+import { useContext } from "react";
 
 
 
 
-const productItem = (props) => {
+
+const ProductItems = (props) => {
 
 
     const context = useContext(myContext);
@@ -48,4 +48,4 @@ const productItem = (props) => {
     )
 }
 
-export default productItem
+export default ProductItems;

@@ -6,13 +6,13 @@ import Button from "@mui/material/Button";
 import { FiUser } from "react-icons/fi";
 import { TbShoppingBag } from "react-icons/tb";
 import Navigation from "./Navigation";
-// import useContext from 'react';
-// import {myContext} from "../../App"
+ import useContext from 'react';
+ import {myContext} from "../../App"
 
 
 const Header = () => {
 
-// const context = useContext(myContext);
+ const context = useContext(myContext);
 
   return (
     <>
@@ -52,9 +52,17 @@ const Header = () => {
                 {/* Header User Login Starting Section Here */}
 
                 <div className="part3 d-flex align-items-center ml-auto">
-                  <Button className="circle mr-3">
+                 
+                  {
+                    context.isLogin!== true ? <Link to='/signIn'>
+                      <Button className="btn-blue btn-round mr-3">
+                    Sign In
+                  </Button>
+                    </Link> : <Button className="circle mr-3">
                     <FiUser />
                   </Button>
+                  }
+                  
                   <div className="ml-auto cartTab d-flex align-items-center">
                     <span className="price">$3.40</span>
                     <div className="position-relative ml-2">

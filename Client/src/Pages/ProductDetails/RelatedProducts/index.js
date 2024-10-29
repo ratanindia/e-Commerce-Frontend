@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import ProductItem from "../../Components/ProductItem";
+import ProductItems from '../../../Components/ProductItems';
 
 
 
@@ -32,22 +32,22 @@ const RelatedProducts = (props) =>{
 
                                 
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <ProductItem/>
+                                        <ProductItems/>
                                     </SwiperSlide>
                                     
                                     </Swiper>

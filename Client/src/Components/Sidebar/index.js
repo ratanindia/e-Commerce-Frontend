@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const Sidebar = () => {
+const SideBar = () => {
 
     const [value, setValue] = useState([100, 60000]);
     const [value2, setValue2] = useState(0);
@@ -145,4 +145,4 @@ const Sidebar = () => {
 }
 
 
-export { Sidebar }
+export default SideBar ;
